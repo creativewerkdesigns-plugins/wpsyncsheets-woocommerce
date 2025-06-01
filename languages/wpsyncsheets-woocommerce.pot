@@ -1,0 +1,324 @@
+# Copyright (C) 2024 Creative Werk Designs
+# This file is distributed under the same license as the WPSyncSheets Lite For WooCommerce plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPSyncSheets Lite For WooCommerce 1.8\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsyncsheets-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-08-21T15:11:21+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: wpssw\n"
+
+#. Plugin Name of the plugin
+msgid "WPSyncSheets Lite For WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://www.wpsyncsheets.com/wpsyncsheets-for-woocommerce/"
+msgstr ""
+
+#. Description of the plugin
+msgid "An automated, run-time solution for WooCommerce orders and products. Users can export WooCommerce orders and products into a single Google Spreadsheet."
+msgstr ""
+
+#. Author of the plugin
+msgid "Creative Werk Designs"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.creativewerkdesigns.com/"
+msgstr ""
+
+#: includes/class-wpsslw-google-api-functions.php:240
+msgid "Select Google Spreeadsheet"
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:113
+msgid "WPSyncSheets Lite"
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:210
+msgid "View Documentation"
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:1725
+msgid "Error: Sorry, your nonce did not verify."
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:2129
+msgid "Product"
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:2129
+#: includes/class-wpsslw-settings.php:2145
+#: includes/class-wpsslw-settings.php:2162
+msgid "Settings"
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:2145
+msgid "Customer"
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:2162
+msgid "Coupon"
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:2277
+msgid "Product Settings"
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:2278
+msgid "Enable this option to automatically generate customized spreadsheets, including the essential \"All Products\" sheet."
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:2291
+#: includes/class-wpsslw-settings.php:2562
+#: includes/class-wpsslw-settings.php:2822
+#: includes/modules/class-wpsslw-order.php:2047
+msgid "Google Spreadsheet Settings"
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:2292
+msgid "Upon assigning a Google Spreadsheet, it will automatically generate the \"All Products\" sheet, populated with specified sheet headers. Additionally, whenever new products are created, WPSyncSheets add new rows dynamically to keep everything up to date."
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:2296
+#: includes/class-wpsslw-settings.php:2567
+#: includes/class-wpsslw-settings.php:2827
+#: includes/modules/class-wpsslw-order.php:2052
+msgid "Create New Spreadsheet"
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:2300
+#: includes/class-wpsslw-settings.php:2571
+#: includes/class-wpsslw-settings.php:2831
+#: includes/modules/class-wpsslw-order.php:2056
+msgid "Select Existing Spreadsheet"
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:2317
+#: includes/class-wpsslw-settings.php:2591
+#: includes/class-wpsslw-settings.php:2848
+#: includes/modules/class-wpsslw-order.php:2075
+msgid "Enter Spreadsheet Name"
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:2326
+#: includes/class-wpsslw-settings.php:2600
+#: includes/class-wpsslw-settings.php:2857
+#: includes/modules/class-wpsslw-order.php:2430
+msgid "Sheet Headers"
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:2327
+msgid "Any disabled sheet headers will be automatically removed from the current spreadsheet. Re-enable the desired headers, save the settings, and your spreadsheet will be updated with the latest data with a single click of the \"Click to Sync\" button."
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:2447
+msgid "Sync Products"
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:2451
+msgid "Add new products to your spreadsheet without modifying existing ones by clicking the \"Click to Sync\" button. This will automatically append all products in the selected date range not already in the sheet."
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:2456
+msgid "All Products"
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:2477
+#: includes/class-wpsslw-settings.php:2743
+#: includes/class-wpsslw-settings.php:3008
+#: includes/modules/class-wpsslw-order.php:2122
+msgid "Synchronizing..."
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:2479
+#: includes/class-wpsslw-settings.php:2745
+#: includes/class-wpsslw-settings.php:3010
+#: includes/modules/class-wpsslw-order.php:2125
+msgid "Click to Sync"
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:2508
+#: includes/class-wpsslw-settings.php:2770
+#: includes/class-wpsslw-settings.php:3037
+msgid "Please genearate authentication code from"
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:2509
+#: includes/class-wpsslw-settings.php:2771
+#: includes/class-wpsslw-settings.php:3038
+msgid "Google API Setting "
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:2510
+#: includes/class-wpsslw-settings.php:2772
+#: includes/class-wpsslw-settings.php:3039
+msgid "Click"
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:2548
+msgid "Customer Settings"
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:2549
+msgid "Enable this option to streamline your customer management process with personalized spreadsheets and an \"All Customers\" sheet."
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:2563
+msgid "Once you've assigned a Google Spreadsheet, it will automatically create an 'All Customers' sheet and populate it with headers based on your settings. The spreadsheet will update with new rows whenever new customers are added."
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:2601
+msgid "Any disabled sheet headers will be automatically removed from the current spreadsheet. To include specific headers, enable them, save the settings, and click the \"Click to Sync\" button to update the spreadsheet with the latest data."
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:2720
+msgid "Sync Customers"
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:2724
+msgid "Click the 'Click to Sync' button to append new customers (within a specified date range, if desired) not already present in the sheet. Rest assured; existing customer data won't be affected."
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:2730
+msgid "All Customers"
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:2735
+#: includes/class-wpsslw-settings.php:3000
+#: includes/modules/class-wpsslw-order.php:2109
+msgid "Date Range"
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:2808
+msgid "Coupon Settings"
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:2809
+msgid "Enhance your coupon management process by enabling this option, automatically creating personalized spreadsheets and an \"All Coupons\" sheet, ensuring seamless functionality."
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:2823
+msgid "Once you've assigned a Google Spreadsheet, it will automatically generate an 'All Coupons' sheet with headers based on your settings. Additionally, new rows will be created whenever new coupons are created."
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:2858
+msgid "Effortlessly tailor your spreadsheet by turning specific sheet headers on or off. Disabled headers will be automatically removed from the current spreadsheet. To update the sheet with the latest data, save your desired header settings and click the \"Click to Sync\" button."
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:2985
+msgid "Sync Coupons"
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:2989
+msgid "The \"Click to Sync\" button makes it easy to append all or selected date range coupons not already present in the sheet. You can rest assured that existing coupons will not be affected during synchronization."
+msgstr ""
+
+#: includes/class-wpsslw-settings.php:2995
+msgid "All Coupons"
+msgstr ""
+
+#: includes/modules/class-wpsslw-coupon.php:29
+#: includes/modules/class-wpsslw-coupon.php:308
+#: includes/modules/class-wpsslw-coupon.php:367
+#: includes/modules/class-wpsslw-customer.php:30
+#: includes/modules/class-wpsslw-customer.php:436
+#: includes/modules/class-wpsslw-general.php:27
+#: includes/modules/class-wpsslw-order.php:716
+#: includes/modules/class-wpsslw-order.php:770
+#: includes/modules/class-wpsslw-order.php:1796
+#: includes/modules/class-wpsslw-order.php:2596
+#: includes/modules/class-wpsslw-product.php:283
+#: includes/modules/class-wpsslw-product.php:353
+#: includes/modules/class-wpsslw-product.php:899
+msgid "Sorry, your nonce did not verify."
+msgstr ""
+
+#: includes/modules/class-wpsslw-coupon.php:275
+#: includes/modules/class-wpsslw-coupon.php:328
+#: includes/modules/class-wpsslw-customer.php:753
+msgid "Please save settings."
+msgstr ""
+
+#: includes/modules/class-wpsslw-order.php:778
+msgid "Spreadsheet id not found."
+msgstr ""
+
+#: includes/modules/class-wpsslw-order.php:2035
+msgid "Order Settings"
+msgstr ""
+
+#: includes/modules/class-wpsslw-order.php:2036
+msgid "Enable this option to automatically create customized spreadsheets and sheets based on order status for efficient order management & seamless functionality."
+msgstr ""
+
+#: includes/modules/class-wpsslw-order.php:2048
+msgid "Your chosen Google Spreadsheet automatically generates a sheet with customized headers based on the below-mentioned settings. Whenever a new order is placed, WPSyncSheets creates a new row to accommodate it with the spreadsheet."
+msgstr ""
+
+#: includes/modules/class-wpsslw-order.php:2096
+msgid "Sync Orders"
+msgstr ""
+
+#: includes/modules/class-wpsslw-order.php:2100
+msgid "By clicking the 'Click to Sync' button, all orders or orders within the custom date range that are not already present in the sheet will be appended. The existing orders in the sheet will not be updated, providing a seamless synchronization process."
+msgstr ""
+
+#: includes/modules/class-wpsslw-order.php:2105
+msgid "All Orders"
+msgstr ""
+
+#: includes/modules/class-wpsslw-order.php:2114
+msgid "From :"
+msgstr ""
+
+#: includes/modules/class-wpsslw-order.php:2117
+msgid "To :"
+msgstr ""
+
+#: includes/modules/class-wpsslw-order.php:2158
+msgid "Manage Row Data"
+msgstr ""
+
+#: includes/modules/class-wpsslw-order.php:2159
+msgid "This setting lets you choose how your data will be organized in the sheet. If you pick \"Order-wise,\" all the order data will be written in a single line. On the other hand, if you go for \"Product-wise,\" each product will have its own separate line. "
+msgstr ""
+
+#: includes/modules/class-wpsslw-order.php:2159
+msgid "Remember, this option is only available when creating a new spreadsheet."
+msgstr ""
+
+#: includes/modules/class-wpsslw-order.php:2161
+msgid "Order Wise"
+msgstr ""
+
+#: includes/modules/class-wpsslw-order.php:2165
+msgid "Product Wise"
+msgstr ""
+
+#: includes/modules/class-wpsslw-order.php:2207
+msgid "Default Order Status as Sheets"
+msgstr ""
+
+#: includes/modules/class-wpsslw-order.php:2208
+msgid "Here's a list of sheets based on the default order status provided by WooCommerce, including 'Trash' and 'All Orders'. These selected sheets will be created in your assigned Google Spreadsheets and will neatly organize orders according to their status. These sheets will be automatically updated to keep everything well-managed whenever there are updates or syncs for orders."
+msgstr ""
+
+#: includes/modules/class-wpsslw-order.php:2316
+msgid "Custom Order Status as Sheets"
+msgstr ""
+
+#: includes/modules/class-wpsslw-order.php:2321
+msgid "This option displays the list of custom order statuses created by the WooCommerce third-party plugin. Selected sheets will be created in your Google Spreadsheets, organizing orders based on their status."
+msgstr ""
+
+#: includes/modules/class-wpsslw-order.php:2431
+msgid "If you disable any sheet headers, they will be automatically removed from the current spreadsheet. You can always re-enable the headers you need, save the settings, and update the spreadsheet with the latest data. Clear the existing spreadsheet and click the \"Click to Sync\" button to initiate the sync process."
+msgstr ""
